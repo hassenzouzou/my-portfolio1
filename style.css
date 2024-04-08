@@ -30,8 +30,7 @@ body {
 .card {
   width: 400px;
   height: 300px;
-  margin: 0 auto;
-  /* background-color: #011522; */
+  margin-right: 10px;
   background-color: #5356ff;
   border-radius: 8px;
 }
@@ -160,11 +159,11 @@ body {
   background-color: #e4405f;
 }
 .social-menu ul li:nth-child(4) a:hover {
-  background-color: #1877F2;
+  background-color: #1877f2;
 }
 .social-menu ul li:nth-child(5) a:hover {
-  background-color: #FFFC00;
+  background-color: #fffc00;
 }
 .social-menu ul li:nth-child(6) a:hover {
-  background-color: #24A1DE;
+  background-color: #24a1de;
 }

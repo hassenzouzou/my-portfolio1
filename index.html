@@ -15,14 +15,15 @@
 </head>
 
 <body class="mx-28">
-  <header class="flex justify-between items-center font-bold mb-5 fixed inset-x-0 top-0 bg-[#007FFF] py-4 px-9">
-    <h1 class="font-bold text-4xl sm:text-5xl ml-4 sm:ml-14 text-white">BLUE</h1>
-    <div class="info flex justify-end w-full sm:w-auto">
+  <header
+    class="flex flex-col sm:flex-row justify-between items-center font-bold mb-5 fixed inset-x-0 top-0 bg-[#007FFF] py-4 px-9">
+    <h1 class="font-bold text-4xl sm:text-5xl text-white mb-4 sm:mb-0 sm:ml-14">BLUE</h1>
+    <div class="info flex justify-center sm:justify-end w-full">
       <a href="#sec1" class="mr-4 sm:mr-5">
         <p class="home text-base sm:text-xl cursor-pointer text-white">Home</p>
       </a>
       <a href="#sec2" class="mr-4 sm:mr-5">
-        <p class="home text-base sm:text-xl cursor-pointer text-white">About Me</p>
+        <p class="home text-base sm:text-xl cursor-pointer text-white">About</p>
       </a>
       <a href="#sec3" class="mr-4 sm:mr-5">
         <p class="home text-base sm:text-xl cursor-pointer text-white">Services</p>
@@ -31,34 +32,37 @@
         <p class="home text-base sm:text-xl cursor-pointer text-white">Projects</p>
       </a>
       <a href="#sec5">
-        <p class="home text-base sm:text-xl cursor-pointer text-white">Contact us</p>
+        <p class="home text-base sm:text-xl cursor-pointer text-white">Contact</p>
       </a>
     </div>
   </header>
 
-  <section class="main pt-32 sm:pt-32" id="sec1">
-    <div class="welcome flex flex-col sm:flex-row justify-center sm:justify-between items-center">
-      <div class="text-center sm:text-left mb-8 sm:mb-0 sm:ml-14">
+
+  <section class="main pt-32 md:pt-32 sm:pt-32" id="sec1">
+    <div class="welcome flex flex-col md:flex-row justify-center md:justify-between items-center">
+      <div class="text-center md:text-left mb-8 md:mb-0 md:ml-14">
         <div class="information text-[#DFF5FF]">
-          <p class="hello font-bold text-4xl sm:text-6xl text-white">Hello,</p>
-          <p class="hello font-bold text-6xl sm:text-8xl text-white">I'm Hassen.</p>
-          <p class="job font-bold text-3xl sm:text-4xl text-white">Web Developer</p>
+          <p class="hello font-bold text-4xl md:text-6xl text-white">Hello,</p>
+          <p class="hello font-bold text-4xl md:text-6xl text-white">I'm Hassen.</p>
+          <p class="job font-bold text-2xl md:text-3xl text-white">Web Developer</p>
         </div>
-        <div class="flex justify-center sm:justify-start mt-5">
-          <a href="#sec4" class="mr-4">
+        <div class="flex flex-col md:flex-row justify-center md:justify-start mt-5">
+          <a href="#sec4" class="mr-2 md:mr-4 mb-2 md:mb-0">
             <p
-              class="seeMyProjects font-bold bg-[#007FFF] hover:bg-[#00308F] duration-500 py-2 px-4 rounded-xl text-white">
+              class="seeMyProjects font-bold bg-[#007FFF] hover:bg-[#00308F] duration-500 py-2 px-4 rounded-xl text-white shadow-md">
               MY PROJECTS</p>
           </a>
-          <a href="">
-            <p class="cv font-bold bg-[#007FFF] hover:bg-[#00308F] duration-500 py-2 px-4 rounded-xl text-white">SEE CV
-            </p>
+          <a href="" class="mr-2 md:mr-4 mb-2 md:mb-0">
+            <p
+              class="cv font-bold bg-[#007FFF] hover:bg-[#00308F] duration-500 py-2 px-4 rounded-xl text-white shadow-md">
+              SEE CV</p>
           </a>
         </div>
       </div>
-      <img src="img/Hassen 01.jpg" class="me w-full sm:w-96 mx-auto sm:mr-14 rounded-xl border-4 mb-20 sm:mb-0" />
+      <img src="img/Hassen 01.jpg" class="me w-full md:w-96 mx-auto md:mr-14 rounded-xl border-4 mb-20 md:mb-0" />
     </div>
   </section>
+
 
 
   <section class="About-me pt-32 sm:pt-32" id="sec2">
@@ -81,41 +85,43 @@
   </section>
 
 
-  <section class="services pt-8 sm:pt-32" id="sec3">
-    <h1 class="text-center font-bold text-4xl sm:text-7xl text-white mb-8 sm:mb-28">SERVICES</h1>
-    <div class="flex flex-col sm:flex-row justify-center items-center sm:items-stretch mb-8 sm:mb-28">
-      <div class="service-1 flex flex-col justify-center items-center rounded-xl p-2.5 mr-0 sm:mr-5 mb-8 sm:mb-0">
+  <section class="services pt-32 md:pt-32 sm:pt-32" id="sec3">
+    <h1 class="text-center font-bold text-4xl md:text-7xl text-white mb-8 sm:mb-28">SERVICES</h1>
+    <div class="flex flex-col md:flex-row justify-center items-center md:items-stretch mb-8 sm:mb-28">
+      <div class="service-1 flex flex-col justify-center items-center rounded-xl p-2.5 md:mr-5 mb-8 md:mb-0">
         <h1 class="text-white text-3xl font-bold text-center mt-8 mb-5">Web Design</h1>
-        <p class="text-white text-center text-lg sm:text-xl">
+        <p class="text-white text-center text-lg md:text-xl">
           I design sleek and engaging websites tailored to your needs, focusing on user experience and modern design
           principles.
         </p>
-        <img class="w-16 sm:w-20 mt-6" src="icons/web design.png" alt="" />
+        <img class="w-16 md:w-20 mt-6" src="icons/web design.png" alt="" />
       </div>
 
-      <div class="service-1 flex flex-col justify-center items-center rounded-xl p-2.5 mr-0 sm:mr-5 mb-8 sm:mb-0">
+      <div class="service-1 flex flex-col justify-center items-center rounded-xl p-2.5 md:mr-5 mb-8 md:mb-0">
         <h1 class="text-white text-3xl font-bold text-center mt-8 mb-5">Web Development</h1>
-        <p class="text-white text-center text-lg sm:text-xl">
+        <p class="text-white text-center text-lg md:text-xl">
           I create user-friendly websites with style and functionality, aiming to make your online presence stand out.
         </p>
-        <img class="w-16 sm:w-20 mt-6" src="icons/web dev.png" alt="" />
+        <img class="w-16 md:w-20 mt-6" src="icons/web dev.png" alt="" />
       </div>
 
-      <div class="service-1 flex flex-col justify-center items-center rounded-xl p-2.5 mb-8 sm:mb-0">
+      <div class="service-1 flex flex-col justify-center items-center rounded-xl p-2.5 mb-8 md:mb-0">
         <h1 class="text-white text-3xl font-bold text-center mt-8 mb-5">App Design</h1>
-        <p class="text-white text-center text-lg sm:text-xl">
+        <p class="text-white text-center text-lg md:text-xl">
           I craft sleek and user-friendly mobile apps that enhance user experience and drive engagement.
         </p>
-        <img class="w-16 sm:w-20 mt-6" src="icons/app design.png" alt="" />
+        <img class="w-16 md:w-20 mt-6" src="icons/app design.png" alt="" />
       </div>
     </div>
   </section>
 
 
-  <section class="pt-8 sm:pt-32" id="sec4">
+
+  <section class="pt-32 sm:pt-32" id="sec4">
     <h1 class="text-center font-bold text-4xl sm:text-7xl text-white mb-8 sm:mb-28">Projects</h1>
     <div
       class="cards flex flex-col sm:flex-row justify-center items-center sm:items-stretch gap-8 sm:gap-0 mb-8 sm:mb-28">
+
       <div class="card flex flex-col justify-center items-center mb-8 sm:mb-0">
         <div class="tools mb-4 sm:mb-0">
           <div class="circle">
@@ -145,6 +151,7 @@
           </a>
         </div>
       </div>
+
       <div class="card flex flex-col justify-center items-center mb-8 sm:mb-0">
         <div class="tools mb-4 sm:mb-0">
           <div class="circle">
@@ -174,6 +181,7 @@
           </a>
         </div>
       </div>
+
       <div class="card flex flex-col justify-center items-center mb-8 sm:mb-0">
         <div class="tools mb-4 sm:mb-0">
           <div class="circle">
@@ -203,29 +211,39 @@
           </a>
         </div>
       </div>
-      <!-- Repeat the card elements for other projects -->
+
+      <!-- Repeat the above card HTML for each card as needed -->
+
     </div>
+
   </section>
 
 
-  <section class="pt-32" id="sec5">
-    <h1 class="text-center font-bold text-7xl text-white mb-20">Contact Us</h1>
+  <section class="pt-16 sm:pt-32" id="sec5">
+    <h1 class="text-center font-bold text-5xl sm:text-7xl text-white mb-10 sm:mb-20">Contact</h1>
 
-    <div class="social-menu mb-96">
-      <ul>
-        <li><a href="https://github.com/hassenzouzou" target="blank"><i class="fab fa-github"></i></i></a></li>
+    <div class="flex justify-center items-center mb-20 sm:mb-96">
+      <ul class="flex space-x-6">
+        <li><a href="https://github.com/hassenzouzou" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-github text-4xl sm:text-5xl text-white"></i></a></li>
         <li><a
             href="https://www.linkedin.com/in/hassen-zouzou-857a26285/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            target="blank"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="https://www.instagram.com/hassen_zouzou/" target="blank"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="https://www.facebook.com/hassen.zouzou.35" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-linkedin-in text-4xl sm:text-5xl text-white"></i></a></li>
+        <li><a href="https://www.instagram.com/hassen_zouzou/" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-instagram text-4xl sm:text-5xl text-white"></i></a></li>
+        <li><a href="https://www.facebook.com/hassen.zouzou.35" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-facebook text-4xl sm:text-5xl text-white"></i></a></li>
         <li><a
             href="https://www.snapchat.com/add/hassen_zouzou?sender_web_id=f83ef9a3-78e2-4444-ba77-4ab6a4b7bee7&device_type=desktop&is_copy_url=true"
-            target="_blank"><i class="fab fa-snapchat"></i></a></li>
-        <li><a href="https://t.me/blueassen" target="_blank"><i class="fab fa-telegram"></i></a></li>
+            target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-snapchat text-4xl sm:text-5xl text-white"></i></a></li>
+        <li><a href="https://t.me/blueassen" target="_blank" rel="noopener noreferrer"><i
+              class="fab fa-telegram text-4xl sm:text-5xl text-white"></i></a></li>
       </ul>
     </div>
   </section>
+
 </body>
 
 </html>
